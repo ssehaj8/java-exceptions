@@ -11,17 +11,17 @@ public class InterestCalculator {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         try {
             System.out.print("Enter principal amount: ");
-            double amount = scanner.nextDouble();
+            double amount = sc.nextDouble();
 
             System.out.print("Enter interest rate: ");
-            double rate = scanner.nextDouble();
+            double rate = sc.nextDouble();
 
             System.out.print("Enter number of years: ");
-            int years = scanner.nextInt();
+            int years = sc.nextInt();
 
             double interest = calculateInterest(amount, rate, years);
             System.out.println("Calculated Interest: " + interest);
@@ -33,7 +33,7 @@ public class InterestCalculator {
             System.out.println("Invalid input. Please enter valid numbers.");
         }
         finally {
-            scanner.close();
+            sc.close();
         }
     }
 }

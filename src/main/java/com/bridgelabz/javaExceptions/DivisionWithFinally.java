@@ -19,9 +19,6 @@ public class DivisionWithFinally {
         catch (ArithmeticException e) {
             System.out.println("Error: Division by zero is not allowed.");
         }
-        finally {
-            System.out.println("Operation completed.");
-            sc.close(); // Ensuring resource cleanup
-        }
+
     }
 }
