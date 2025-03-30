@@ -11,7 +11,7 @@ public class DivisionWithFinally {
             int numerator = sc.nextInt();
 
             System.out.print("Enter denominator: ");
-            int denominator = scgit add.nextInt();
+            int denominator = sc.nextInt();
 
             int result = numerator / denominator;
             System.out.println("Result: " + result);
