@@ -4,6 +4,7 @@ import java.io.*;
 
 public class FileReaderExample {
     public static void main(String[] args) {
+
         String filePath = "input.txt"; // File path
         String sourcefile="C:\\Users\\sehajpreet\\Desktop\\bridgelabz-workspace\\java-exceptions\\src\\main\\java\\com\\bridgelabz\\javaExceptions\\input.txt";
 
